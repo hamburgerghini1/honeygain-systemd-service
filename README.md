@@ -34,7 +34,7 @@ The script is tested on my main fedora 38 desktop and arch and ubuntu 22.04.3 us
 3. **Run the script**
 
     ```bash
-    ./install.sh
+    sudo ./install.sh
 
 
 # DISCLAIMER
