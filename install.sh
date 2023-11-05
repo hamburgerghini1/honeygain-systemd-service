@@ -63,5 +63,6 @@ if [ -n "$TERMINAL" ]; then
     echo "You can now find 'Honeygain Service' in your application menu."
 else
     echo "Error: No suitable terminal emulator found. Please install one and create the desktop launcher manually. You can check what terminal works in README on GitHub"
+
     
 fi
