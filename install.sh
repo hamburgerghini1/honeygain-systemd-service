@@ -42,7 +42,7 @@ fi
 echo "Downloading Honeygain logo from their website for the desktop file"
 wget https://webassets.honeygain.com/uploads/2021/07/28123856/Honeygain-Logo.zip
 
-echo "Unzipping the logo archive and moving it to your Pictures folder
+echo "Unzipping the logo archive and moving it to your Pictures folder"
 unzip Honeygain-Logo.zip
 cd Logo/Bee
 cp hg_logo_icon_color_dark.png $USER/Pictures
