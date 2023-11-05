@@ -19,12 +19,10 @@ This repository provides a simple setup script for running Honeygain as a system
    ```bash
    wget https://raw.githubusercontent.com/hamburgerghini1/honeygain-systemd-service/main/install.sh
 
-
 2. **Set it to executable**
    
     ```bash
      chmod +x install.sh
-
 
 3. **Run the script**
 
