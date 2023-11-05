@@ -1,24 +1,16 @@
-# honeygain-systemd-service
-A systemd service for Honeygain docker image that loads it automatically at startup
+# Honeygain Systemd Service
 
-I expect that you have already honeygain docker image (and docker itself obviously) installed
-![Installation instructions](https://hub.docker.com/r/honeygain/honeygain)
+A systemd service for Honeygain Docker image that loads it automatically at startup.
 
-1. Download the .service file
-2. Copy it to /etc/systemd/system
-```javascript
-sudo cp honeygain-docker.service /etc/systemd/system
-```
- 
-3. Run these commands
-   ```javascript
+**Prerequisites:** Make sure you have the Honeygain Docker image and Docker itself installed. You can find installation instructions [here](https://hub.docker.com/r/honeygain/honeygain).
+
+```bash
+# Download the .service file and copy it to /etc/systemd/system
+sudo cp honeygain-docker.service /etc/systemd/system/
+
+# Enable and start the service
 sudo systemctl enable honeygain-docker.service
-
 sudo systemctl start honeygain-docker.service
-```
 
-4. Check if the service is running
-
-```javascript
+# Check if the service is running
 sudo systemctl status honeygain-docker.service
-```
