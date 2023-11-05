@@ -44,25 +44,18 @@ wget https://webassets.honeygain.com/uploads/2021/07/28123856/Honeygain-Logo.zip
 
 echo "Unzipping the logo archive and moving it to your Pictures folder"
 unzip Honeygain-Logo.zip
-cd Logo/Bee
-cp hg_logo_icon_color_dark.png $USER/Pictures
+cd Logo/Bee || exit
+cp hg_logo_icon_color_dark.png "$USER"/Pictures
 rm hg_logo_icon_color_dark.png
 
 # Create .desktop file
-if [ -n "$TERMINAL" ]; then
-    echo "Creating honeygain.desktop file..."
-    echo "[Desktop Entry]" >> honeygain.desktop
-    echo "Type=Application" >> honeygain.desktop
-    echo "Terminal=true" >> honeygain.desktop
-    echo "Name=Honeygain Service" >> honeygain.desktop
-    echo "Exec=$TERMINAL -e 'sudo systemctl start honeygain-docker.service && read -p \"Press [Enter] to close...\"'" >> honeygain.desktop
-    echo "Icon=$USER/Pictures/hg_logo_icon_color_dark.png" >> honeygain.desktop
-    echo "Categories=Network;" >> honeygain.desktop
-    chmod +x honeygain.desktop
-    echo "honeygain.desktop file created successfully."
-    echo "You can now find 'Honeygain Service' in your application menu."
-else
-    echo "Error: No suitable terminal emulator found. Please install one and create the desktop launcher manually. You can check what terminal works in README on GitHub"
-
-    
-fi
+{
+    echo "[Desktop Entry]"
+    echo "Type=Application"
+    echo "Terminal=true"
+    echo "Name=Honeygain Service"
+    echo "Exec=$TERMINAL -e 'sudo systemctl start honeygain-docker.service && read -p \"Press [Enter] to close...\"'"
+    echo "Icon=$USER/Pictures/hg_logo_icon_color_dark.png"
+    echo "Categories=Network;"
+} >> honeygain.desktop
+chmod +x honeygain.desktop
