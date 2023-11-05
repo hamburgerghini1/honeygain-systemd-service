@@ -13,9 +13,7 @@ sudo cp honeygain-docker.service /etc/systemd/system
 3. Run these commands
    ```javascript
 sudo systemctl enable honeygain-docker.service
-```
 
-```javascript
 sudo systemctl start honeygain-docker.service
 ```
 
