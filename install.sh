@@ -45,8 +45,13 @@ wget https://webassets.honeygain.com/uploads/2021/07/28123856/Honeygain-Logo.zip
 echo "Unzipping the logo archive and moving it to your Pictures folder"
 unzip Honeygain-Logo.zip
 cd Logo/Bee || exit
-cp hg_logo_icon_color_dark.png "$USER"/Pictures
+cp hg_logo_icon_color_dark.png Pictures
 rm hg_logo_icon_color_dark.png
+cd ..
+cd ..
+cd ..
+rm Honeygain-Logo
+rm Honeygain-Logo.zip
 
 # Create .desktop file
 {
