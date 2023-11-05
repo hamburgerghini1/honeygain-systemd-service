@@ -49,7 +49,6 @@ cp hg_logo_icon_color_dark.png Pictures
 rm hg_logo_icon_color_dark.png
 cd ..
 cd ..
-cd ..
 sudo rm -rf Logo
 sudo rm Honeygain-Logo.zip
 
