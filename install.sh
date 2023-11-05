@@ -62,6 +62,6 @@ if [ -n "$TERMINAL" ]; then
     echo "honeygain.desktop file created successfully."
     echo "You can now find 'Honeygain Service' in your application menu."
 else
-    echo "Error: No suitable terminal emulator found. Please install one \(xterm, gnome terminal, konsole, kitty, or alacritty\) and create the desktop launcher manually."
+    echo "Error: No suitable terminal emulator found. Please install one and create the desktop launcher manually. You can check what terminal works in README on GitHub"
     
 fi
