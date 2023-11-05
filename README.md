@@ -15,7 +15,7 @@ alacritty
 
 Download the bash script, set it to executable and run it
 
-The script is tested on my main fedora 38 desktop and arch and ubuntu VMs.
+The script is tested on my main fedora 38 desktop and arch and ubuntu 22.04.3 using VMs.
 
 ## Usage
 
