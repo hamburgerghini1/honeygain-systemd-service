@@ -6,6 +6,7 @@ A systemd service for Honeygain Docker image that loads it automatically at star
 
 ```bash
 # Download the .service file and copy it to /etc/systemd/system
+wget https://raw.githubusercontent.com/hamburgerghini1/honeygain-systemd-service/main/honeygain-docker.service
 sudo cp honeygain-docker.service /etc/systemd/system/
 
 # Enable and start the service
