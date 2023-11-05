@@ -15,6 +15,4 @@ sudo systemctl start honeygain-docker.service
 
 # Check if the service is running
 sudo systemctl status honeygain-docker.service
-
-
-There is also the bash script
+```
