@@ -33,3 +33,12 @@ Download the bash script, set it to executable and run it
 
     ```bash
     ./install.sh
+
+
+# DISCLAIMER
+I wasn't sure if using Honeygain logo in a project like this was against their TOS / rules from ![their brans assets page](https://www.honeygain.com/brand-assets)
+If that's the case. Contact me somehow and I will remove the project or at least set it to private
+
+I will also provide ![my referral link](https://tinyurl.com/honeygain-referral)
+
+I made this project mainly for fun and for my own use.
