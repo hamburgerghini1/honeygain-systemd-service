@@ -1,0 +1,11 @@
+[Unit]
+Description=Honeygain Linux Docker Container
+Wants=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker run --rm honeygain-container honeygain/honeygain
+
+[Install]
+WantedBy=multi-user.target
