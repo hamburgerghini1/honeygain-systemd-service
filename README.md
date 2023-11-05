@@ -38,9 +38,9 @@ The script is tested on my main fedora 38 desktop and arch and ubuntu 22.04.3 us
 
 
 # DISCLAIMER
-I wasn't sure if using Honeygain logo in a project like this was against their TOS / rules from ![their brand assets page](https://www.honeygain.com/brand-assets)
+I wasn't sure if using Honeygain logo in a project like this was against their TOS / rules from their brand assets page https://www.honeygain.com/brand-assets
 If that's the case. Contact me somehow and I will remove the project or at least set it to private
 
-I will also provide ![my referral link](https://tinyurl.com/honeygain-referral)
+I will also provide my referral link https://tinyurl.com/honeygain-referral
 
 I made this project mainly for fun and for my own use.
