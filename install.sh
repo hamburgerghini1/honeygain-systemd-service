@@ -62,4 +62,5 @@ sudo rm Honeygain-Logo.zip
     echo "Icon=$USER/Pictures/hg_logo_icon_color_dark.png"
     echo "Categories=Network;"
 } >> honeygain.desktop
+cp honeygain.desktop /home/"$USER"/.local/share/applications
 chmod +x honeygain.desktop
