@@ -63,4 +63,7 @@ sudo rm Honeygain-Logo.zip
     echo "Categories=Network;"
 } >> honeygain.desktop
 cp honeygain.desktop /home/"$USER"/.local/share/applications
+cd /home/"$USER"/.local/share/applications || exit
 chmod +x honeygain.desktop
+cd /home/"$USER" || exit
+rm honeygain.desktop
