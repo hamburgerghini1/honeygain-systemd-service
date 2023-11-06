@@ -1,5 +1,8 @@
 # Honeygain Systemd Service
 
+# NOT WORKING AAS IT SHOULD... 
+
+
 A systemd service for Honeygain Docker image that loads it automatically at startup.
 
 **Prerequisites:** Make sure you have the Honeygain Docker image and Docker itself (and systemd lmao) installed. You can find installation instructions [here](https://hub.docker.com/r/honeygain/honeygain).
