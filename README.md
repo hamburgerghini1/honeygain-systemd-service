@@ -1,6 +1,6 @@
 # Honeygain Systemd Service
 
-# NOT WORKING AAS IT SHOULD... 
+# NOT WORKING AS IT SHOULD... 
 
 
 A systemd service for Honeygain Docker image that loads it automatically at startup.
