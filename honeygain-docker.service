@@ -1,11 +1,14 @@
 [Unit]
-Description=Honeygain Linux Docker Container
-Wants=docker.service
+Description="Honeygain Docker Systemd Service"
+After=network.target
 After=docker.service
 
 [Service]
-Restart=always
-ExecStart=/usr/bin/docker run --rm --name honeygain-docker -d honeygain/honeygain
+Type=simple
+RemainAfterExit=yes
+ExecStart=/usr/bin/honeygain-docker start
+ExecReload=/usr/bin/honeygain-docker restart
+ExecStop=/usr/bin/honeygain-docker stop
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
